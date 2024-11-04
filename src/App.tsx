@@ -1,10 +1,13 @@
-function App() {
+import { FunctionComponent } from "react"
 
+import AppNavigator from "./features/home/routes"
+
+
+const App: FunctionComponent = () => {
+  
   return (
     <>
-      <h1 className='text-4xl text-blue-500'>
-        First Line
-      </h1>
+     <AppNavigator />
     </>
   )
 }
